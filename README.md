@@ -17,7 +17,7 @@ A beginner-friendly Weather Application built to learn and master **React**, **R
   - [3. Reducer (`weatherReducer.js`)](#3-reducer-weatherreducerjs)
   - [4. Store Configuration (`store.js`)](#4-store-configuration-storejs)
   - [5. React Integration (`Provider`, `useSelector`, `useDispatch`)](#5-react-integration-provider-useselector-usedispatch)
-- [Common Mistakes & Gotchas](#-common-mistakes--gotchas-for-beginners)
+- [Common Mistakes & Gotchas](#-common-mistakes--gotchas)
 - [Setup & Installation](#-setup--installation)
 
 ---
