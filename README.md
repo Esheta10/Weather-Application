@@ -10,7 +10,6 @@ A beginner-friendly Weather Application built to learn and master **React**, **R
 ## 📑 Table of Contents
 - [Overview](#-overview)
 - [Key Concepts Learned](#-key-concepts-learned)
-- [Redux Data Flow in this App](#-redux-data-flow-in-this-app)
 - [Project Architecture & Directory Structure](#-project-architecture--directory-structure)
 - [Step-by-Step Explanation of Code](#-step-by-step-explanation-of-code)
   - [1. Constants (`weatherConstants.js`)](#1-constants-weatherconstantsjs)
