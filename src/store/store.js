@@ -2,12 +2,12 @@ import {createStore, compose, applyMiddleware} from "redux";
 import { weatherReducer } from "./reducers/weatherReducer";
 import {thunk} from "redux-thunk"
 
-const reduxDevtool =  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
+
 const store = createStore(
     weatherReducer,
-    compose(
-        applyMiddleware(thunk), 
-        reduxDevtool
+    composeEnhancers(
+        applyMiddleware(thunk)
     )
 );
 
